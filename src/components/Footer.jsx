@@ -8,63 +8,7 @@ import {
 } from "react-icons/fa";
 import Contact from "./Contact";
 import Divider from "./Divider";
-
-// const Footer = () => {
-//   return (
-//     <div className="container" id="contact">
-//       <div className="footer__content">
-//         <div className="footer__top">
-//           <div className="container__content footer__top__content">
-//             <div className="footer__cards">
-//               <h2>Contact Me</h2>
-//               <FooterCard icon={<FaMobile />} text="0337-7251311" />
-//               <FooterCard
-//                 icon={<FaHome />}
-//                 text="Samundri Faisalabad Paskistan"
-//               />
-//               <FooterCard icon={<FaGoogle />} text="momna533gb@gmail.com" />
-//             </div>
-//             <div className="footer__form">
-//               <Contact />
-//             </div>
-//           </div>
-//         </div>
-//         <div className="footer__bottom">
-//           <div className="container__content footer__bottom__content">
-//             <p>
-//               COPYRIGHT©2023 <span> MOMNA IJAZ</span> ALL RIGHTS RESERVED
-//             </p>
-//             <div className="footer__social__links">
-//               <a
-//                 href="https://www.linkedin.com/in/momna-ijaz-113797210/"
-//                 target="_blank"
-//                 rel="noreferrer"
-//               >
-//                 <FaLinkedin />
-//               </a>
-//               <a
-//                 href="https://github.com/Momna533"
-//                 target="_blank"
-//                 rel="noreferrer"
-//               >
-//                 <FaGithub />
-//               </a>
-//               <a
-//                 href="https://github.com/Momna533"
-//                 target="_blank"
-//                 rel="noreferrer"
-//               >
-//                 <FaInstagram />
-//               </a>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Footer;
+import { FaTiktok } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -73,12 +17,9 @@ const Footer = () => {
         <h2>Stay in Touch</h2>
         <div className="footer__top">
           <div className="footer__top__left">
-            <FooterCard icon={<FaMobile />} text="0337-7251311" />
-            <FooterCard
-              icon={<FaHome />}
-              text="Samundri Faisalabad Paskistan"
-            />
-            <FooterCard icon={<FaGoogle />} text="momna533gb@gmail.com" />
+            <FooterCard icon={<FaMobile />} text="+92-123456789" />
+            <FooterCard icon={<FaHome />} text="Faisalabad Paskistan" />
+            <FooterCard icon={<FaGoogle />} text="momnadev533gb@gmail.com" />
           </div>
           <div className="footer__top__right">
             <Contact />
@@ -91,7 +32,7 @@ const Footer = () => {
           </p>
           <div className="footer__social__links">
             <a
-              href="https://www.linkedin.com/in/momna-ijaz-113797210/"
+              href="https://www.linkedin.com/in/momna-ijaz-951760398/"
               target="_blank"
               rel="noreferrer"
             >
@@ -105,11 +46,18 @@ const Footer = () => {
               <FaGithub />
             </a>
             <a
-              href="https://www.instagram.com/momna00000/"
+              href="https://www.instagram.com/momna_ijaz_/"
               target="_blank"
               rel="noreferrer"
             >
               <FaInstagram />
+            </a>
+            <a
+              href="https://www.tiktok.com/@momna_ijaz"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <FaTiktok />
             </a>
           </div>
         </div>

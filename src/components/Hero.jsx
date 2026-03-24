@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa";
 import Header from "./Header";
 
 const Hero = () => {
@@ -39,7 +39,7 @@ const Hero = () => {
         <h3>Stay connected</h3>
         <div className="hero__social__icons">
           <a
-            href="https://www.linkedin.com/in/momna-ijaz-113797210/"
+            href="https://www.linkedin.com/in/momna-ijaz-951760398/"
             target="_blank"
             rel="noreferrer"
           >
@@ -53,11 +53,18 @@ const Hero = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.instagram.com/momna00000/"
+            href="https://www.instagram.com/momna_ijaz_/"
             target="_blank"
             rel="noreferrer"
           >
             <FaInstagram />
+          </a>
+          <a
+            href="https://www.tiktok.com/@momna_ijaz"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaTiktok />
           </a>
         </div>
       </div>

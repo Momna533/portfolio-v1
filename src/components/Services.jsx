@@ -7,37 +7,43 @@ const Services = () => {
           <ServiceEntry
             heading={"Frontend Development"}
             technologies={[
-              "ReactJS",
-              "NextJS",
-              "Typescript",
-              "React Native",
-              "Redux",
+              "Responsive static websites",
+              "Multi-page business sites (About, Services, Contact)",
+              "Personal & recruiter-ready portfolio sites",
+              "Conversion-focused landing pages",
             ]}
           />
           <ServiceEntry
-            heading={"Backend Development"}
+            heading={"UI/UX & Styling"}
             technologies={[
-              "NodeJs",
-              "ExpressJs",
-              "MongoDB",
-              "Mongoose",
-              "REST",
-              "axios",
+              "Mobile-first responsive layouts",
+              "Custom CSS themes & branding",
+              "Smooth animations,transitions, and interactive effects",
             ]}
           />
           <ServiceEntry
-            heading={"Other Technologies"}
+            heading={"JavaScript Functionality"}
             technologies={[
-              "HTML5",
-              "CSS3",
-              "Bootstrap",
-              "Tailwind",
-              "Figma",
-              "Git",
-              "npm",
-              "vite",
-              "vercel",
-              "vercel",
+              "Interactive components (dropdowns, modals, carousels)",
+              "Client-side form validation",
+              "Dynamic content updates (show/hide, DOM manipulation)",
+              "Basic API integration (fetch & display external data)",
+            ]}
+          />
+          <ServiceEntry
+            heading={"Deployment & Version Control"}
+            technologies={[
+              "GitHub Pages hosting",
+              "Netlify/Vercel deployment setup",
+              "GitHub repository management & version control",
+            ]}
+          />
+          <ServiceEntry
+            heading={"Optimization & Maintenance"}
+            technologies={[
+              "SEO essentials (semantic HTML, meta tags, alt text)",
+              "Performance improvements (minify CSS/JS, image compression)",
+              "Ongoing website updates & bug fixes",
             ]}
           />
         </div>
@@ -54,7 +60,7 @@ const ServiceEntry = ({ heading, technologies }) => {
       <div className="underline"></div>
       <div className="technologies">
         {technologies.map((technology) => (
-          <h5>{technology}</h5>
+          <h5 key={technology.heading}>{technology}</h5>
         ))}
       </div>
     </div>

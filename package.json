@@ -1,7 +1,7 @@
 {
   "name": "portfolio-1",
   "private": true,
-  "version": "0.0.0",
+  "version": "'",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -27,5 +27,9 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Momna533/portfolio-v1.git",
+  "author": "Momna Ijaz <momna533gb@gmail.com>",
+  "license": "MIT"
 }

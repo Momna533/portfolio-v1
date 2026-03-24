@@ -5,20 +5,67 @@ const Projects = () => {
         <h2>My Recent Work</h2>
         <div className="project__entries">
           <ProjectEntry
-            heading={"Reddit app"}
+            heading={"Personal Portfolio"}
             desc={
-              "A project using redux for state management in a Reddit Application."
+              "A portfolio website built with HTML, CSS, and JavaScript featuring responsive design and smooth animations."
             }
-            technologies={["reactJS", "redux"]}
-            demoHref={"https://reddit-app-xi.vercel.app/"}
-            githubHref={"https://github.com/Momna533/reddit-app"}
+            technologies={["html5", "css3", "javascript"]}
+            demoHref={"https://portfolio-lac-rho-5zxoj2o3ig.vercel.app/"}
+            githubHref={"https://github.com/Momna533/portfolio"}
           />
           <ProjectEntry
-            heading={"Personal Portfolio"}
-            desc={"Personal Portfolio showing my works."}
-            technologies={["reactJS"]}
+            heading={"Landing Page"}
+            desc={
+              "Coffee Shop landing page built with HTML, CSS, and JavaScript featuring responsive design and smooth animations."
+            }
+            technologies={["html5", "css3", "javascript"]}
+            demoHref={"https://landing-page-two-pink-76.vercel.app/"}
+            githubHref={"https://github.com/Momna533/landing-page"}
+          />
+          <ProjectEntry
+            heading={"Airbnb clone"}
+            desc={
+              "Airbnb clone built with HTML, CSS, and JavaScript featuring responsive design and smooth animations"
+            }
+            technologies={["html5", "css3", "javascript"]}
+            demoHref={"https://airbnb-clone-five-phi.vercel.app/"}
+            githubHref={"https://github.com/Momna533/airbnb-clone"}
+          />
+          <ProjectEntry
+            heading={"FloristShop Landing Page"}
+            desc={
+              "FloristShop landing page built with HTML, CSS, and JavaScript featuring responsive design and smooth animations"
+            }
+            technologies={["html5", "css3", "javascript"]}
+            demoHref={"https://landing-page-florist-shop.vercel.app/"}
+            githubHref={"https://github.com/Momna533/landingPage-floristShop"}
+          />
+          <ProjectEntry
+            heading={"Blog Layout"}
+            desc={
+              "Blog Layout built with HTML, CSS, and JavaScript featuring responsive design and smooth animations"
+            }
+            technologies={["html5", "css3", "javascript"]}
+            demoHref={"https://blog-layout-lemon.vercel.app/"}
+            githubHref={"https://github.com/Momna533/blog-layout"}
+          />
+          <ProjectEntry
+            heading={"Personal Portfolio v1"}
+            desc={
+              "A portfolio website built with HTML, CSS, and JavaScript featuring responsive design and smooth animations."
+            }
+            technologies={["html5", "css3", "javascript"]}
+            demoHref={"https://portfolio-1-rho-beige.vercel.app/"}
+            githubHref={"https://github.com/Momna533/portfolio-v1"}
+          />
+          <ProjectEntry
+            heading={"Personal Portfolio v2"}
+            desc={
+              "A portfolio website built with HTML, CSS, and JavaScript featuring responsive design and smooth animations."
+            }
+            technologies={["html5", "css3", "javascript"]}
             demoHref={"https://portfolio-0-kappa.vercel.app/"}
-            githubHref={"https://github.com/Momna533/portfolio-0"}
+            githubHref={"https://github.com/Momna533/portfolio-v2"}
           />
         </div>
       </div>
