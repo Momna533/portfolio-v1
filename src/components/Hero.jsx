@@ -9,7 +9,7 @@ const Hero = () => {
         <h3>Hi</h3>
         <h1>
           I am Momna Ijaz <br />
-          web & mobile developer
+          frontend web developer
         </h1>
         <h4>
           I am a freelance web and mobile developer. I have experience in
