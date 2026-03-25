@@ -7,43 +7,33 @@ const Services = () => {
           <ServiceEntry
             heading={"Frontend Development"}
             technologies={[
-              "Responsive static websites",
-              "Multi-page business sites (About, Services, Contact)",
-              "Personal & recruiter-ready portfolio sites",
+              "Responsive websites (single-page & multi-page)",
+              "Recruiter-ready portfolio sites",
               "Conversion-focused landing pages",
             ]}
           />
           <ServiceEntry
             heading={"UI/UX & Styling"}
             technologies={[
-              "Mobile-first responsive layouts",
-              "Custom CSS themes & branding",
-              "Smooth animations,transitions, and interactive effects",
+              "Mobile-first layouts",
+              "Custom themes & branding",
+              "Smooth animations & interactive effects",
             ]}
           />
           <ServiceEntry
             heading={"JavaScript Functionality"}
             technologies={[
               "Interactive components (dropdowns, modals, carousels)",
-              "Client-side form validation",
-              "Dynamic content updates (show/hide, DOM manipulation)",
-              "Basic API integration (fetch & display external data)",
+              "Form validation & error handling",
+              "API integration & dynamic content",
             ]}
           />
           <ServiceEntry
-            heading={"Deployment & Version Control"}
+            heading={"Deployment & Optimization"}
             technologies={[
-              "GitHub Pages hosting",
-              "Netlify/Vercel deployment setup",
-              "GitHub repository management & version control",
-            ]}
-          />
-          <ServiceEntry
-            heading={"Optimization & Maintenance"}
-            technologies={[
+              "Hosting setup (GitHub, Netlify, Vercel)",
               "SEO essentials (semantic HTML, meta tags, alt text)",
-              "Performance improvements (minify CSS/JS, image compression)",
-              "Ongoing website updates & bug fixes",
+              "Performance tuning & ongoing maintenance",
             ]}
           />
         </div>

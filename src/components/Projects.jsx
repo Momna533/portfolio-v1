@@ -40,33 +40,6 @@ const Projects = () => {
             demoHref={"https://landing-page-florist-shop.vercel.app/"}
             githubHref={"https://github.com/Momna533/landingPage-floristShop"}
           />
-          <ProjectEntry
-            heading={"Blog Layout"}
-            desc={
-              "Blog Layout built with HTML, CSS, and JavaScript featuring responsive design and smooth animations"
-            }
-            technologies={["html5", "css3", "javascript"]}
-            demoHref={"https://blog-layout-lemon.vercel.app/"}
-            githubHref={"https://github.com/Momna533/blog-layout"}
-          />
-          <ProjectEntry
-            heading={"Personal Portfolio v1"}
-            desc={
-              "A portfolio website built with HTML, CSS, and JavaScript featuring responsive design and smooth animations."
-            }
-            technologies={["html5", "css3", "javascript"]}
-            demoHref={"https://portfolio-1-rho-beige.vercel.app/"}
-            githubHref={"https://github.com/Momna533/portfolio-v1"}
-          />
-          <ProjectEntry
-            heading={"Personal Portfolio v2"}
-            desc={
-              "A portfolio website built with HTML, CSS, and JavaScript featuring responsive design and smooth animations."
-            }
-            technologies={["html5", "css3", "javascript"]}
-            demoHref={"https://portfolio-0-kappa.vercel.app/"}
-            githubHref={"https://github.com/Momna533/portfolio-v2"}
-          />
         </div>
       </div>
     </div>
